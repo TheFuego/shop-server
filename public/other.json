@@ -1,0 +1,32 @@
+[{
+    "name": "Mug",
+    "price": 8,
+    "img": "mug",
+    "category": "miscelaneous",
+    "discount": 0
+    
+},
+{
+    "name": "Mug 2",
+    "price": 6,
+    "img": "mug",
+    "category": "miscelaneous",
+    "sizes": ["XS", "S", "L"],
+    "discount": 0
+},
+{
+    "name": "Small Car",
+    "price": 360,
+    "img": "bike",
+    "category": "vehicles",
+    "discount": 0
+},
+{
+    "name": "Bicycle",
+    "price": 32,
+    "img": "bike",
+    "category": "vehicles",
+    "colors": ["cyan", "red"],
+    "color": "cyan",
+    "discount": 0
+}]

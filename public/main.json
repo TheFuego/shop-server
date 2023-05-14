@@ -1,0 +1,29 @@
+[
+{
+    "name": "Bear",
+    "price": 500,
+    "img": "bear",
+    "category": "bears",
+    "sizes": ["S", "XL"],
+    "colors": ["brown", "white", "black"],
+    "color": "brown",
+    "discount": 0.02
+},
+{
+    "name": "Small Car",
+    "price": 360,
+    "img": "bike",
+    "category": "vehicles",
+    "colors": ["cyan", "red"],
+    "color": "cyan",
+    "discount": 0
+},
+{
+    "name": "Shirt",
+    "price": 26,
+    "img": "shirt",
+    "category": "shirts",
+    "sizes": ["S", "M", "X"],
+    "discount": 0.2
+}
+]

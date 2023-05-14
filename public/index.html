@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Shop</title>
+        <link rel="stylesheet" type="text/css" href="./universal.css">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="top" class="top-class">
+                <div id="moreBtn">
+                    <button onclick="showMore()">☰</button>
+                </div>
+                
+                <div id="logo">
+                    <img src="ico/logo1.png">
+                </div>
+                
+
+                <div id="cart">
+                    <button onclick="clearCart()">✖</button>
+                    <a href="checkout.html"><button><img src="ico/shopping-cart.png"></button></a>
+                    <p id="cartNum">0</p>
+                </div>
+            </div>
+
+            <div id="more" class="more-class">
+            </div>
+        </header>
+
+        <main>
+            <div id="f-head" style="display: none;">
+                <h1>Featured products:</h1>
+            </div>
+
+            <aside>
+                <div id="nav">
+                    <div id="search">
+                        <input type="text" id="searchBar" onchange="searchName()" placeholder="Search..">
+                        <button id="searchBarBtn" onclick="searchName()">🔍︎</button>
+                    </div>
+
+                    <div id="sorting">
+                        <label for="sort">Sort by:</label>
+                        <select id="sort" onChange="sort()">
+                            <option value="1">Price: High to Low</option>
+                            <option value="2">Price: Low to High</option>
+                            <option value="3">Alphabetically</option>
+                        </select>
+                    </div>
+
+                    <div id="list"></div>
+
+                    <div id="filters">
+                        <br>
+                        <input type="checkbox" id="discounted" onclick="searchDiscount()">
+                        <label for="discounted">Discounted</label> <br><br>
+
+                        <label for="range">Price Range:</label><br>
+                        <input type="number" onchange="updatePrice()" id="min" min="0" max="10000"> - 
+                        <input type="number" onchange="updatePrice()" id="max" min="0" max="10000"><br>
+                        <button id="search" onclick="searchPrice()">Search</button><br><br>
+                    </div>
+                </div>
+            </aside>
+
+            <section>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+        <script src="web.js"></script>
+    </body>
+</html>

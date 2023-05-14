@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Shop</title>
+        <link rel="stylesheet" href="universal.css">
+        <link rel="stylesheet" href="checkoutStyle.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="top" class="top-class">
+                <div id="moreBtn">
+                    <button onclick="showMore()">☰</button>
+                </div>
+                
+                <div id="logo">
+                    <img src="ico/logo1.png">
+                </div>
+            
+            </div>
+
+            <div id="more" class="more-class">
+            </div>
+        </header>
+
+        <main>
+            <div id="f-head" style="display: none;">
+            </div>
+
+            <section>
+                
+            </section>
+
+            <aside>
+                <div class="cart-info">
+                    <div>
+                        <h3 id="itemsNum">Total items:</h3>
+                        <h3 id="totalPrice">Total price:</h3>
+                    </div>
+
+                    <div id="form-div">
+                        <form>
+                            <span class="form-span">
+                                <input type="text" id="fname" name="fname" placeholder="First name">
+                                <input type="text" id="lname" name="lname" placeholder="Last name">
+                            </span>
+
+                            <span class="form-span">
+                                <input type="email" id="email" name="email" placeholder="E-mail">
+                                <input type="number" id="number" name="number" placeholder="Phone number">
+                            </span>
+
+                            <span class="form-span">
+                                <input type="text" id="city" name="city" placeholder="City">
+                                <input type="text" id="street" name="street" placeholder="Adress">
+                                <input type="text" id="zip" name="zip" placeholder="Postal code">
+                            </span>
+                        </form>
+
+                    </div>
+
+                    <div id="order">
+                        <button id="orderBtn">Order</button>
+                    </div>
+                </div>
+            </aside>
+        </main>
+        
+        <script src="checkoutScript.js"></script>
+        <script src="web.js"></script>
+        <script src="serverCode.js"></script>
+    </body>
+</html>

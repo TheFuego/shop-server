@@ -1,0 +1,70 @@
+[{
+    "name": "Hoodie Small",
+    "price": 26,
+    "img": "hoodie",
+    "category": "hoodies",
+    "sizes": ["S", "M", "X", "XL"],
+    "discount": 0
+},
+{
+    "name": "Shirt",
+    "price": 26,
+    "img": "shirt",
+    "category": "shirts",
+    "sizes": ["S", "M", "X"],
+    "discount": 0.2
+},
+{
+    "name": "Hoodie",
+    "price": 35,
+    "img": "hoodie",
+    "category": "hoodies",
+    "colors": ["grey", "green"],
+    "color": "grey",
+    "discount": 0.35
+},
+{
+    "name": "Blue Shirt",
+    "price": 30,
+    "img": "shirtB",
+    "category": "shirts",
+    "sizes": ["X", "XL"],
+    "keywords": ["t-shirt", "tshirt"],
+    "discount": 0
+},
+{
+    "name": "Cyan Shirt",
+    "price": 21,
+    "img": "shirtC",
+    "category": "shirts",
+    "discount": 0
+},
+{
+    "name": "Bear",
+    "price": 500,
+    "img": "bear",
+    "category": "bears",
+    "sizes": ["S", "XL"],
+    "colors": ["brown", "white", "black"],
+    "color": "brown",
+    "discount": 0.02
+},
+{
+    "name": "Granny",
+    "price": 100,
+    "img": "baba",
+    "category": "bears",
+    "colors": ["white", "black"],
+    "color": "white",
+    "keywords": ["grandma", "grandmomma", "baba"],
+    "discount": 0
+},
+{
+    "name": "Frog",
+    "price": 999,
+    "img": "frog",
+    "category": "bears",
+    "sizes": ["XS", "S", "3XL"],
+    "keywords": ["vasko", "zabata"],
+    "discount": 0.99
+}]
